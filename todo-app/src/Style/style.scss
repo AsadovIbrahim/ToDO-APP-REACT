@@ -1,0 +1,29 @@
+@import url(../Style/style.scss);
+
+body{
+    background-color:coral;
+}
+.app{
+    margin: 20px;
+}
+input{
+    border-radius: 12px;
+    margin-right: 20px;
+    outline: none;
+    border: #fff;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+.task-list{
+    button{
+        margin-right: 10px;
+    }
+}
